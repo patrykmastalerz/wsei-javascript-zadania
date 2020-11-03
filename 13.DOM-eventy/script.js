@@ -88,7 +88,7 @@ button.addEventListener("click", () => {
 
     element.innerHTML = counter;
 
-    if(counter === 0 ){
+    if(counter === 10 ){
         element.innerHTML = 0;
         counter = 0;
     }
