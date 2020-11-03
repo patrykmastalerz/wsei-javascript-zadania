@@ -25,11 +25,13 @@ const displayElement = (element) => {
     console.log(element);
 }
 
+const liItems = document.querySelectorAll("li");
 const ulItems = document.getElementsByTagName("ul");
 const spansItems = document.getElementsByTagName("span");
 const spansInDiv = document.querySelectorAll("div.list span");
 const spansInDivWithId = document.querySelectorAll("div#spans span");
 
+displayElement(liItems);
 displayElement(ulItems);
 displayElement(spansItems);
 displayElement(spansInDiv);
