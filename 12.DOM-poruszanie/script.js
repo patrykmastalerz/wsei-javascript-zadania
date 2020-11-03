@@ -93,6 +93,17 @@ divs.forEach((div) => {
 })
 
 //5.4
+divs.forEach((div) => {
+    div.addEventListener("mouseover", () => {
+        const colors = div.style.backgroundColor;
+        for (let i = 0; i < listItems.length; i++) {          
+                listItems[i].style.backgroundColor = colors;      
+        }     
+    })
+})
+
+
+//5.5
 
 divs.forEach((div) => {
     div.addEventListener("mouseover", () => {
