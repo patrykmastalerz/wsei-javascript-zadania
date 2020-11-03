@@ -72,9 +72,7 @@ let car = {
     }
 };
 
-Object.keys(car.engine).forEach((item) => {
-    console.log(item);
-  })
+console.log(car.engine.type, car.engine.name);
 
 
 //zadanie 6
