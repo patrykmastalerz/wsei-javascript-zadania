@@ -29,7 +29,8 @@ document.addEventListener("scroll", e => {
 console.log(e);
 });
   
-// 6.
+//1.6
+
   
 document.querySelector("#input-test").addEventListener("input", e => {
 console.log(e);
